@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     tools:context=".ExploreOrganizations">
-=======
-    tools:context=".OrganizationInfo">
->>>>>>> 27bcfcf3aca55b602a676ab74d2fd8536921b92b
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
