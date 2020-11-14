@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/explore_causes"
+        android:id="@+id/research"
         android:enabled="true"
         android:title="@string/nav_bar_one"
         android:icon="@drawable/dot"/>
