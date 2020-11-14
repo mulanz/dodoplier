@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".explore_organizations">
+    tools:context=".ExploreOrganizations">
 
     <TextView
         android:id="@+id/explore_orgs_title"
