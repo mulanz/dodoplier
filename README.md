@@ -1,2 +1,2 @@
 # dodoplier
-A platform to take advantage of corporate donation matching programs to multiply donation impact. 
+A platform to take advantage of corporate donation matching programs to multiply impact. 
