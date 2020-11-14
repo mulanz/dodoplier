@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Dodoplier</string>
+
+    <string name="nav_bar_one">Donate</string>
+    <string name="nav_bar_two">Favorites</string>
+    <string name="nav_bar_three">Profile</string>
+
 </resources>
