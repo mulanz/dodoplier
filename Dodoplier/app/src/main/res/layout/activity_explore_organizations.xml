@@ -4,15 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".ExploreOrganizations">
+=======
+    tools:context=".OrganizationInfo">
+>>>>>>> 27bcfcf3aca55b602a676ab74d2fd8536921b92b
 
-    <TextView
-        android:id="@+id/explore_orgs_title"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Select an organization"
-        android:textSize="36sp"
+        android:layout_height="72dp"
+        android:layout_marginTop="660dp"
+        android:backgroundTint="@color/white"
+        app:backgroundTint="@color/white"
+        app:elevation="8dp"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemRippleColor="@color/colorPrimary"
+        app:itemTextColor="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
