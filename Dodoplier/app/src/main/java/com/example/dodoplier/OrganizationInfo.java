@@ -1,6 +1,7 @@
 package com.example.dodoplier;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,6 +23,17 @@ public class OrganizationInfo extends AppCompatActivity {
             public void onClick(View view) {
                 //start ExploreOrganizations activity
                 Intent startIntent = new Intent(getApplicationContext(), ExploreOrganizations.class);
+                startActivity(startIntent);
+            }
+        });
+
+        //add function to clicking profiles
+        ConstraintLayout profile = (ConstraintLayout) findViewById(R.id.constraintLayout8);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //start profile activity
+                Intent startIntent = new Intent(getApplicationContext(), Profile.class);
                 startActivity(startIntent);
             }
         });
