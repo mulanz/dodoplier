@@ -42,7 +42,7 @@
                 android:id="@+id/orgs_title"
                 style="@style/title_text"
                 android:layout_width="378dp"
-                android:layout_height="80dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="55dp"
                 android:text="Sending love to community development." />
@@ -63,17 +63,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/org5"
-                    style="@style/button_cap_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="84dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:onClick="orgClicked"
-                    android:text="Alley Cat Allies"
-                    android:textColor="@color/white" />
-
-                <Button
-                    android:id="@+id/org"
+                    android:id="@+id/org1"
                     style="@style/button_cap_text"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
@@ -104,6 +94,16 @@
 
                 <Button
                     android:id="@+id/org4"
+                    style="@style/button_cap_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="orgClicked"
+                    android:text="Alley Cat Allies"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/org5"
                     style="@style/button_cap_text"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
