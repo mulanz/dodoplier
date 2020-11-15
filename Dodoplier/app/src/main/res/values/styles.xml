@@ -8,12 +8,16 @@
 
     </style>
 
-    <style name="inter">
-        <item name="font">@font/inter</item>
+    <style name="title_text">
+        <item name="font">@font/inter_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
     </style>
 
-    <style name="questrial">
+    <style name="subtext">
         <item name="font">@font/questrial</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
 </resources>
