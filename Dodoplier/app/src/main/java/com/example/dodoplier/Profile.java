@@ -21,13 +21,13 @@ public class Profile extends AppCompatActivity {
             TextView explanation = (TextView) findViewById(R.id.explanation);
             explanation.setVisibility(View.VISIBLE);
             TextView impact = (TextView) findViewById(R.id.impact);
-            impact.setText("@string/underlined2");
+            impact.setText("Total Impact: 2X (Match) ___▶");
             opened = true;
         } else{
             TextView explanation = (TextView) findViewById(R.id.explanation);
             explanation.setVisibility(View.GONE);
             TextView impact = (TextView) findViewById(R.id.impact);
-            impact.setText("@string/underlined");
+            impact.setText("Total Impact: 2X (Match) ___▼");
             opened = false;
         }
     }

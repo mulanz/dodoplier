@@ -107,10 +107,10 @@
             android:paddingTop="10dp"
             android:paddingRight="50dp"
             android:paddingBottom="10dp"
-            android:text="E.g. If you donate $20, Facebook will also donate $donate $20, resulting in $40 total donated"
-            android:textColor="#595656"
-            android:textSize="20sp"
-            android:visibility="gone"/>
+            android:text="e.g. If you donate $20, Facebook will also donate $donate $20, resulting in $40 total donated."
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/payBtn"
