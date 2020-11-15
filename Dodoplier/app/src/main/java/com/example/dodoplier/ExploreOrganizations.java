@@ -3,6 +3,7 @@ package com.example.dodoplier;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,4 +17,5 @@ public class ExploreOrganizations extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_explore_organizations);
     }
+
 }
