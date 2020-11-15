@@ -6,14 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 
+
+import com.android.volley.toolbox.Volley;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -111,6 +111,7 @@ public class ExploreCauses extends AppCompatActivity {
 
         for (int i = 0; i < random.length; i ++) {
             JSONObject charityObject = jsonResponse.getJSONObject(random[i]);
+
             if (charityObject.has("charityName")) {
                 orgNames[i] = charityObject.getString("charityName");
             }
