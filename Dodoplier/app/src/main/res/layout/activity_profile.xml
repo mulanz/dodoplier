@@ -11,16 +11,18 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="0dp"
         android:layout_height="72dp"
-        android:layout_marginTop="660dp"
         android:backgroundTint="@color/white"
         app:backgroundTint="@color/white"
         app:elevation="8dp"
         app:itemIconTint="@color/colorPrimary"
         app:itemRippleColor="@color/colorPrimary"
         app:itemTextColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/bottom_navigation_menu" />
 
     <LinearLayout

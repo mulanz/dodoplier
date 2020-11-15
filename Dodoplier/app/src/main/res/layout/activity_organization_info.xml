@@ -7,10 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".OrganizationInfo">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_width="391dp"
+        android:layout_height="263dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
@@ -21,10 +22,10 @@
         android:paddingBottom="15dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageButton
             android:id="@+id/orgInfoPageBackBtn"
@@ -39,6 +40,7 @@
             android:id="@+id/orgPageTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
             android:fontFamily="@font/inter_bold"
             android:gravity="center"
             android:maxWidth="300dp"
@@ -48,7 +50,68 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.4" />
+            app:layout_constraintVertical_bias="0.29" />
+
+        <TextView
+            android:id="@+id/orgPageTagline3"
+            android:layout_width="87dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/inter"
+            android:gravity="start"
+            android:maxWidth="350dp"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:text="93.5/100"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/orgPageTagline"
+            app:layout_constraintStart_toEndOf="@+id/orgPageTagline"
+            app:layout_constraintTop_toTopOf="@+id/orgPageTagline"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/orgPageTagline"
+            android:layout_width="198dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="start"
+            android:maxWidth="350dp"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:text="Accountability Score:"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/orgPageTitle" />
+
+        <TextView
+            android:id="@+id/orgPageTagline4"
+            android:layout_width="351dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/questrial"
+            android:gravity="start"
+            android:maxWidth="350dp"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:text="&quot;Georgia's Largest Animal Rescue and No-Kill Shelters&quot;"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="13.5sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/orgPageTitle" />
 
         <TextView
             android:id="@+id/orgPageCause"
@@ -62,24 +125,6 @@
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-
-        <TextView
-            android:id="@+id/orgPageTagline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/inter"
-            android:gravity="center"
-            android:maxWidth="350dp"
-            android:shadowDx="3"
-            android:shadowDy="3"
-            android:shadowRadius="5"
-            android:text="Reaching beyond the bounds of reality "
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:visibility="visible"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/orgPageTitle" />
 
         <Button
             android:id="@+id/learnMoreBtn"
@@ -98,34 +143,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <TextView
-            android:id="@+id/orgPageScore"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/questrial"
-            android:text="94.3 / 100"
-            android:textColor="@color/white"
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/scoreLabel" />
-
-        <TextView
-            android:id="@+id/scoreLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
-            android:text="Accountability Score"
-            android:textColor="@color/white"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
         android:layout_width="match_parent"
-        android:layout_height="480dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -133,8 +156,8 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="130dp"
-            tools:layout_editor_absoluteY="136dp">
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="130dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -146,10 +169,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="69dp"
                     android:fontFamily="@font/inter_bold"
-                    android:gravity="bottom|center_horizontal"
+                    android:gravity="bottom|start"
+                    android:paddingLeft="26dp"
                     android:text="Multipliers"
-                    android:textColor="#000000"
-                    android:textSize="30sp" />
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="26sp" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -161,11 +186,12 @@
                         android:layout_width="167dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/org_info_list_bg"
+                        android:elevation="10dp"
+                        android:onClick="personClicked"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toEndOf="@+id/constraintLayout6"
-                        app:layout_constraintTop_toTopOf="parent"
-                        android:elevation="10dp">
+                        app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
                             android:id="@+id/imageView2"
@@ -220,11 +246,12 @@
                         android:layout_width="166dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/org_info_list_bg"
+                        android:elevation="10dp"
+                        android:onClick="personClicked"
                         app:layout_constraintEnd_toStartOf="@+id/constraintLayout5"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        android:elevation="10dp">
+                        app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
                             android:id="@+id/imageView"
@@ -285,11 +312,12 @@
                         android:layout_width="167dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/org_info_list_bg"
+                        android:elevation="10dp"
+                        android:onClick="personClicked"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toEndOf="@+id/constraintLayout8"
-                        app:layout_constraintTop_toTopOf="parent"
-                        android:elevation="10dp">
+                        app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
                             android:id="@+id/imageView4"
@@ -345,11 +373,12 @@
                         android:layout_width="166dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/org_info_list_bg"
+                        android:elevation="10dp"
+                        android:onClick="personClicked"
                         app:layout_constraintEnd_toStartOf="@+id/constraintLayout7"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        android:elevation="10dp">
+                        app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
                             android:id="@+id/imageView3"
