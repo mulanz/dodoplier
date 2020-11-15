@@ -10,4 +10,7 @@
 
     <string name="explore_orgs_subtitle">"Here are five charities you can trust."</string>
 
+    <string name="underlined"><u>Total Impact: 2X (Match) ___▼</u></string>
+    <string name="underlined2"><u>Total Impact: 2X (Match) ___▶</u></string>
+
 </resources>
