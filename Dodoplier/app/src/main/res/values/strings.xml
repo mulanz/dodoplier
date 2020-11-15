@@ -5,10 +5,10 @@
     <string name="nav_bar_two">Favorites</string>
     <string name="nav_bar_three">Profile</string>
 
-    <string name="explore_causes_title">"Which cause wants some love today?</string>
-    <string name="explore_causes_subtitle">"Choose your impact."</string>
+    <string name="explore_causes_title">Which cause wants some love today?</string>
+    <string name="explore_causes_subtitle">Choose your impact.</string>
 
-    <string name="explore_orgs_subtitle">"Here are five charities you can trust."</string>
+    <string name="explore_orgs_subtitle">Here are five charities you can trust.</string>
 
     <string name="underlined"><u>Total Impact: 2X (Match) ___▼</u></string>
     <string name="underlined2"><u>Total Impact: 2X (Match) ___▶</u></string>
