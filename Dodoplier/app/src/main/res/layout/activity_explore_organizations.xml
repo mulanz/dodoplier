@@ -22,4 +22,80 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_navigation_menu" />
 
+    <TextView
+        android:id="@+id/orgs_title"
+        style="@style/title_text"
+        android:layout_width="378dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="Sending love to community development."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/orgs_subtitle"
+        style="@style/smaller_subtext"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/explore_orgs_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/orgs_title"
+        app:layout_constraintTop_toBottomOf="@+id/orgs_title" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="460dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orgs_subtitle">
+
+        <Button
+            android:id="@+id/org1"
+            style="@style/button_cap_text"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:backgroundTint="@color/black"
+            android:text="Alley Cat Allies"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/org2"
+            style="@style/button_cap_text"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:backgroundTint="@color/black"
+            android:text="Alley Cat Allies"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/org3"
+            style="@style/button_cap_text"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:backgroundTint="@color/black"
+            android:text="Alley Cat Allies"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/org4"
+            style="@style/button_cap_text"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:backgroundTint="@color/black"
+            android:text="Alley Cat Allies"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/org5"
+            style="@style/button_cap_text"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:backgroundTint="@color/black"
+            android:text="Alley Cat Allies"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
