@@ -5,7 +5,7 @@
     android:id="@+id/profile"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Profile">
+    tools:context=".ExploreOrganizations">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -28,9 +28,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604"
-        tools:layout_editor_absoluteX="2dp">
+        app:layout_constraintVertical_bias="0.604">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,7 +67,8 @@
                     style="@style/button_cap_text"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="orgClicked"
                     android:text="Alley Cat Allies"
                     android:textColor="@color/white" />
 
@@ -75,7 +77,8 @@
                     style="@style/button_cap_text"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="orgClicked"
                     android:text="Alley Cat Allies"
                     android:textColor="@color/white" />
 
@@ -84,7 +87,8 @@
                     style="@style/button_cap_text"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="orgClicked"
                     android:text="Alley Cat Allies"
                     android:textColor="@color/white" />
 
@@ -93,7 +97,8 @@
                     style="@style/button_cap_text"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="orgClicked"
                     android:text="Alley Cat Allies"
                     android:textColor="@color/white" />
 
@@ -102,7 +107,8 @@
                     style="@style/button_cap_text"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:onClick="orgClicked"
                     android:text="Alley Cat Allies"
                     android:textColor="@color/white" />
 

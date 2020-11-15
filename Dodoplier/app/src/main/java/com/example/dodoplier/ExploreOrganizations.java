@@ -18,4 +18,9 @@ public class ExploreOrganizations extends AppCompatActivity {
         setContentView(R.layout.activity_explore_organizations);
     }
 
+    public void orgClicked(View view) {
+        Intent goToOrgPage = new Intent(this, OrganizationInfo.class);
+        startActivity(goToOrgPage);
+    }
+
 }

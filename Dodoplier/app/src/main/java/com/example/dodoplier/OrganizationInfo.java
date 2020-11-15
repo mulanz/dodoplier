@@ -16,27 +16,11 @@ public class OrganizationInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_organization_info);
 
-        //add function to back button
-        ImageButton orgInfoBackBtn = (ImageButton) findViewById(R.id.orgInfoPageBackBtn);
-        orgInfoBackBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //start ExploreOrganizations activity
-                Intent startIntent = new Intent(getApplicationContext(), ExploreOrganizations.class);
-                startActivity(startIntent);
-            }
-        });
+    }
 
-        //add function to clicking profiles
-        ConstraintLayout profile = (ConstraintLayout) findViewById(R.id.constraintLayout8);
-        profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //start profile activity
-                Intent startIntent = new Intent(getApplicationContext(), Profile.class);
-                startActivity(startIntent);
-            }
-        });
+    public void personClicked(View view) {
+        Intent goToProfile = new Intent(this, Profile.class);
+        startActivity(goToProfile);
     }
 
 }
