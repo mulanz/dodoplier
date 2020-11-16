@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="391dp"
-        android:layout_height="263dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
@@ -40,17 +40,17 @@
             android:id="@+id/orgPageTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
             android:fontFamily="@font/inter_bold"
             android:gravity="center"
             android:maxWidth="300dp"
             android:text="Nothing in Space"
+            android:textAlignment="textStart"
             android:textColor="@color/white"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.29" />
+            app:layout_constraintVertical_bias="0.25" />
 
         <TextView
             android:id="@+id/orgPageTagline3"
@@ -71,13 +71,12 @@
             app:layout_constraintBottom_toBottomOf="@+id/orgPageTagline"
             app:layout_constraintStart_toEndOf="@+id/orgPageTagline"
             app:layout_constraintTop_toTopOf="@+id/orgPageTagline"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/orgPageTagline"
             android:layout_width="198dp"
             android:layout_height="27dp"
-            android:layout_marginStart="4dp"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/inter_bold"
             android:gravity="start"
@@ -97,10 +96,9 @@
             android:id="@+id/orgPageTagline4"
             android:layout_width="351dp"
             android:layout_height="38dp"
-            android:layout_marginStart="4dp"
             android:layout_marginTop="36dp"
             android:fontFamily="@font/questrial"
-            android:gravity="start"
+            android:gravity="start|center_vertical"
             android:maxWidth="350dp"
             android:shadowDx="3"
             android:shadowDy="3"
@@ -117,14 +115,17 @@
             android:id="@+id/orgPageCause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="13dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="18dp"
             android:fontFamily="@font/questrial"
             android:maxWidth="200dp"
             android:text="Medical Research"
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/orgPageTagline4"
+            app:layout_constraintVertical_bias="0.923" />
 
         <Button
             android:id="@+id/learnMoreBtn"
@@ -132,6 +133,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/white_button"
             android:fontFamily="@font/inter_bold"
+            android:onClick="viewBtnClicked"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:shadowDx="3"
@@ -141,7 +143,8 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/orgPageTagline4" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -171,7 +174,7 @@
                     android:fontFamily="@font/inter_bold"
                     android:gravity="bottom|start"
                     android:paddingLeft="26dp"
-                    android:text="Multipliers"
+                    android:text="Snowballers"
                     android:textAlignment="viewStart"
                     android:textColor="@color/colorPrimary"
                     android:textSize="26sp" />
