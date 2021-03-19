@@ -1,2 +1,2 @@
 # snowball
-A platform to take advantage of corporate donation matching programs to multiply impact. 
+A platform that takes advantage of corporate donation matching programs to multiply the impact of individual donations.
